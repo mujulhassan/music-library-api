@@ -24,3 +24,6 @@ VALUES (2, "Joe", "Bloggs","joebloggs@gmail.com", SHA2(CONCAT("password","SUPER_
 INSERT INTO users (user_id, first_name, last_name, email, password, user_type_id, created_at)
 VALUES (3, "Jim", "Bloggs" , "jimbloggs@yahoo.com", SHA2(CONCAT("password","SUPER_DUPER_SECRET"), 224), 2, "2020-11-20 12:00:00");
 
+INSERT INTO Artists (artist_id, name, genre) VALUES (1, "The Weeknd", "R&B"); 
+INSERT INTO Artists (artist_id, name, genre) VALUES (2, "Carti", "Hip hop");
+INSERT INTO Artists (artist_id, name, genre) VALUES (3, "Dua Lipa", "Pop");
