@@ -1,3 +1,5 @@
+/* eslint-disable import/no-unresolved */
+
 const fetchUserTypes = require("~root/actions/users/fetchUserTypes");
 const handleAPIError = require("~root/utils/handleAPIError");
 
